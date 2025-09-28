@@ -22,4 +22,4 @@ deno task build
 
 ### the return of the `package.json`
 
-It seems vite.config.ts does not understand `@vitejs/plugin-react` in the deno `imports`. We need to have a `package.json` file in the root of the project. Deno got us [covered here](https://docs.deno.com/runtime/fundamentals/configuration/#package.json-support).
+all used packages are node packages. while we could use `npm:` imports throughout the project, we keep the `package.json` for easier compatibility with node.js based tools. Deno got us [covered here](https://docs.deno.com/runtime/fundamentals/configuration/#package.json-support).
