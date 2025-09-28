@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-all --node-modules-dir npm:vite"
+  },
+    "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "types": ["npm:@types/react"]
+  }
+}
