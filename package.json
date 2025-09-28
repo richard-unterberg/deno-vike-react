@@ -1,8 +1,5 @@
 {
-  "name": "deno-test",
-  "version": "1.0.0",
   "private": true,
-  "type": "module",
   "dependencies": {
     "vite": "^7.1.7",
     "@vitejs/plugin-react": "^5.0.4",

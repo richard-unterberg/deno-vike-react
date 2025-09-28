@@ -1,22 +1,11 @@
-import { useState } from "react";
+export default Page;
 
-const Page = () => {
-	const [count, setCount] = useState(0);
-
+function Page() {
 	return (
 		<section>
-			<h1>Counter: {count}</h1>
-			<button type="button" onClick={() => setCount(count + 1)}>
-				Increment
-			</button>
-			<button
-				type="button"
-				onClick={() => setCount(count - 1 < 0 ? 0 : count - 1)}
-			>
-				Decrement
-			</button>
+			<h1>Welcome to Vike + React</h1>
+			<p>This is a simple counter example:</p>
+			<a href="/star-wars">Go to Star Wars movies data examples</a>
 		</section>
 	);
-};
-
-export default Page;
+}
