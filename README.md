@@ -2,6 +2,8 @@
 
 This is a minimal example of using [vike](https://vike.dev) with [Deno](https://deno.land) and [React](https://reactjs.org).
 
+[More Information](https://vike.dev/deno)
+
 dev:
 
 ```bash
