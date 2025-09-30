@@ -1,9 +1,9 @@
 {
   "tasks": {
-    "dev": "deno run --allow-all --node-modules-dir npm:vike dev",
-    "build": "deno run --allow-all --node-modules-dir npm:vike build",
-    "preview": "deno run --allow-all --node-modules-dir npm:vike preview",
-    "prod": "deno task build && deno task preview"
+    "dev": "deno run -A --node-modules-dir npm:vike dev",
+    "build": "deno run -A --node-modules-dir npm:vike build",
+    "preview": "NODE_ENV=production node dist/server/index.js",
+    "prod": "NODE_ENV=production node dist/server/index.js"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
